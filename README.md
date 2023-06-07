@@ -1,6 +1,6 @@
 # QA
 # Daftar Isi
--[Indobert-QA](#indobert-qa)
+- [Indobert-QA](#indobert-qa)
 
 # IndoBERT-QA
 
