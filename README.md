@@ -12,6 +12,8 @@ IndoBERT adalah versi Indonesia dari model BERT dan dilatih menggunakan lebih da
 
 IndoBERT-QA akan digunakan untuk membuat respons terhadap pertanyaan pengguna menggunakan teks konteks yang dihasilkan dari proses penerapan aturan. Ini akan memungkinkan pengguna untuk mendapatkan jawaban hanya dengan mengajukan pertanyaan dan memberikan teks konteks.
 
+Untuk menggunakan model ini, Anda dapat mengunduhnya melalui [Hugging Face](https://huggingface.co/Rifky/Indobert-QA) dengan menggunakan pipeline “question-answering” dan menentukan model dan tokenizer sebagai “Rifky/Indobert-QA” 
+
 ### Indobert-QA menjawab sebuah pertanyaan
 ![Gambar.1 Indobert-QA menjawab sebuah pertanyaan.](images/Indobert-QA.png)
 
