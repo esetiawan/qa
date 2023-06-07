@@ -49,7 +49,7 @@ Rule "APA" digunakan untuk menjawab pertanyaan tentang penjelasan suatu pekerjaa
 | Total |        |                                                    | 4    |
 
 ```
-Segmen Program 3.1 Contoh Program Rule Apa
+Contoh Program Rule Apa
 async function ruleApa(keyword, kalimat){
     let score = 0;
     let temp = []
@@ -110,7 +110,7 @@ Rule "BERAPA" digunakan untuk menjawab pertanyaan tentang jumlah gaji pada suatu
 | Total |        |                                                                    | 5    |
 
 ```
-Segmen Program 3.2 Contoh Program Rule Berapa
+Contoh Program Rule Berapa
 async function ruleBerapa(keyword, kalimat) {
     let score = 0;
     let temp = []
@@ -152,7 +152,7 @@ aturan "DIMANA", digunakan untuk menjawab pertanyaan tentang bidang atau tempat 
 | Total |        |                                                   | 4    |
 
 ```
-Segmen Program 3.1 Contoh Program Rule Dimana
+Contoh Program Rule Dimana
 async function ruleDimana(keyword, kalimat){
     let score = 0;              
     score += wordCount(keyword, kalimat)
