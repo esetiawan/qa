@@ -27,7 +27,7 @@ Gambar.1 menunjukkan alur kerja tanya jawab otomatis pada aplikasi. Pengguna per
 
 **alur kerja tanya jawab otomatis**
 
-![Gambar.2 Indobert-QA menjawab sebuah pertanyaan.](images/alur_kerja_pencarian.png)
+![Gambar.2 Alur kerja pencarian.](images/alur_kerja_pencarian.png)
 
 Gambar.2 menjelaskan lebih rinci tentang teknik dan alur kerja saat sistem mencari jawaban untuk pertanyaan yang diberikan oleh pengguna. Ada tiga aktor yang terlibat, yaitu NodeJs, Sphinx, dan Flask. NodeJs menerima pertanyaan dari pengguna dan mencari apakah pertanyaan tersebut pernah ditanyakan sebelumnya. Jika iya, sistem akan mengirimkan kembali jawaban yang telah disimpan. Pertanyaan kemudian diolah untuk mendapatkan kata kunci atau kata kunci utama. Proses ini melibatkan penghapusan stopwords dan tanda baca. Setelah stopwords dihapus, sistem membuat query untuk pencarian menggunakan Sphinx. NodeJs mengirimkan query tersebut ke Sphinx untuk mencari artikel yang relevan dengan kata kunci. Artikel yang ditemukan oleh Sphinx berupa ID, dan NodeJs mencari artikel tersebut dalam database. Artikel yang ditemukan kemudian dipecah menjadi kalimat-kalimat. Kalimat-kalimat ini diperiksa dengan menggunakan aturan tertentu dan kata kunci untuk mencari kalimat yang berpotensi mengandung jawaban. Kalimat-kalimat ini digabungkan dan dikirim ke Flask untuk diproses menggunakan IndoBert-QA agar menghasilkan jawaban yang lebih baik. Flask mengirimkan responsnya kembali ke pengguna.
 
