@@ -8,6 +8,7 @@ Ini adalah repository GitHub yang berisi implementasi sederhana dari Sistem Tany
 - [Indobert-QA](#indobert-qa)
 - [Knowledge Base](#knowledge-base)
 - [Information Retrieval](#information-retrieval)
+- [Langkah Sistem Tanya Jawab](#langkah-sistem-tanya-jawab)
 
 # Introduction
 Sistem tanya jawab (question answering system) adalah sistem yang dirancang untuk menampilkan jawaban yang sesuai dengan pertanyaan dan konteks teks yang diberikan. Konteks teks adalah teks yang digunakan oleh sistem tanya jawab sebagai referensi untuk menjawab pertanyaan yang diberikan. Sistem tanya jawab dapat membantu dalam menjawab pertanyaan yang sering ditanyakan dengan menggunakan dokumen atau artikel tertentu. Ada beberapa jenis sistem tanya jawab berdasarkan cara mereka menangani cakupan pertanyaan:
